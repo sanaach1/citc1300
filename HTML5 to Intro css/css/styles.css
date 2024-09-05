@@ -46,7 +46,7 @@ img {
     border-style: none;
     box-sizing: border-box;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 400px) {
     #mainDiv {
         color: #ffffffef;
         top: 40%;
