@@ -1,5 +1,5 @@
 body {
-    background: #dec596;
+    background: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -125,8 +125,8 @@ h1 {
     height: 1px;
     background: linear-gradient(
         -45deg,
-        rgba(95, 145, 255, 1),
-        rgba(0, 0, 255, 0)
+        rgb(255, 255, 255),
+        rgb(248, 247, 247)
     );
     border-radius: 999px;
     filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
