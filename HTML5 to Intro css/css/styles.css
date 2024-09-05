@@ -129,7 +129,7 @@ h1 {
         rgb(248, 247, 247)
     );
     border-radius: 999px;
-    filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
+    filter: drop-shadow(0 0 6px rgb(255, 255, 255));
     animation: tail 3000ms ease-in-out, shooting 3000ms ease-in-out;
     animation-fill-mode: forwards;
 }
