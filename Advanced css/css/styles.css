@@ -10,16 +10,16 @@ body {
     padding: 20px;
 }
 
-#banner{
+#banner {
     width: 90%;
 }
 
-#col1{
+#col_one {
     width: 55%;
     border: 2px solid black;
 }
 
-#col2{
+#col_two {
     width: 55%;
     border: 2px solid black;
 }
@@ -69,7 +69,7 @@ nav a:hover {
     color: black
 }
 
-#twocol{
+#two_col{
     display: flex;
 }
 
