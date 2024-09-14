@@ -1,0 +1,136 @@
+/* Global Styles */
+
+body{
+    background-color:sandybrown;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    background-color: bisque;
+}
+#col_onee {
+    width: 55%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#col_two {
+    width: 55%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+/* Mobile Style */
+
+@media(main-width: 320px){
+    nav {
+        background-color: #9E7760;
+        padding: 5px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav li{
+    display: block;
+}
+
+    nav li a {
+    display: block;
+    height: 38px;
+    background-color: #9DC9C8;
+    color: cornsilk;
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+    nav li a:hover{
+    background-color: #070803;
+}
+
+main{
+    padding: 20px;
+}
+
+h1, 
+h2,
+h3 {
+    text-align: center;
+    color: #371C1E;
+    text-shadow: 1px 1px 1px #9E5865;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    color: #371C1E;
+    text-shadow: 1px 1px 1px #9E5865;
+}
+
+/* Table Styles */
+
+@media (min-width:768px) {
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 155px;
+        width: 55px;
+        line-height: 50px;
+        margin: 10px;
+    }
+
+    .movie_post {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px #371C1E;
+    }
+}
+
+/* Desktop Style*/
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 25px auto;
+        border: 5px solid black;
+        border-radius: 25px;
+    }
+
+    nav {
+        padding: 2px;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color:#AF9A5B;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+    
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+}
