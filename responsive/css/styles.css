@@ -26,6 +26,10 @@ img{
     margin: 20px;
     padding: 20px;
 }
+
+.movie_post{
+    width: 70%;
+}
 /* Mobile Style */
 
 @media(main-width: 320px){
