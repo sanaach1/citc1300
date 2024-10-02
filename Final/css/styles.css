@@ -2,6 +2,7 @@
 
 body{
     background-color:sandybrown;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 img{
@@ -75,6 +76,7 @@ h3 {
     text-align: center;
     color: #371C1E;
     text-shadow: 1px 1px 1px #9E5865;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 footer{
